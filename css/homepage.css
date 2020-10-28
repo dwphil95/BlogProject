@@ -1,0 +1,96 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
+a,
+a:focus,
+a:hover {
+    color: gray;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none;
+    background-color: #fff;
+    border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+    height: 100%;
+    background-color: lightblue;
+}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.masthead {
+    margin-bottom: 5rem;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+    padding: 0 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60em;
+    background-image: url('../imgs/software.jpg');
+    background-size: 100% 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+}
+
+.cover-heading {
+    margin-bottom: 2.5em;
+    padding-top: 0.5em;
+    font-weight: bold;
+    border-bottom: dashed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.back {
+    background: rgba(255,255,255,0.5);
+}
+
+.lead {
+    padding-bottom: 2.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
