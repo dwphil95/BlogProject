@@ -32,11 +32,6 @@ a:hover {
 /*
  * Base structure
  */
-
- html,
- body {
-     height: 100%;
- }
  
  body {
      display: -ms-flexbox;
@@ -55,4 +50,38 @@ a:hover {
  
  .navbar-brand {
      font-weight: 700;
+ }
+
+ /*
+ *  Blogs
+ */
+
+
+ .articles {
+    max-width: 45em;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-top: 20px;
+ } 
+
+ .articles h4, p {
+     text-align: left;
+     text-shadow: none;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .headerpics {
+    max-width: 45em;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: 100% 100%;
+ }
+
+ #headerpic1, #headerpic2, #headerpic3 {
+    max-height: 280px;
+ }
+
+ #article3 {
+     border-bottom: none;
  }
