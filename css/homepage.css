@@ -36,7 +36,6 @@ a:hover {
 
 html,
 body {
-    height: 100%;
     background-color: lightblue;
 }
 
@@ -67,8 +66,8 @@ body {
     padding: 0 1.5rem;
     margin-left: auto;
     margin-right: auto;
-    max-width: 60em;
-    background-image: url('../imgs/software.jpg');
+    max-width: 80em;
+    background-image: url('../imgs/tricking.jpg');
     background-size: 100% 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
