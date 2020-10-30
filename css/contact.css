@@ -50,7 +50,6 @@ a:hover {
  */
 
 .contact {
-    /* padding-right: 20em; */
     padding-bottom: 5em;
     padding-right: 500px;
     background-image: url("../imgs/tricking4.jpeg");
@@ -126,5 +125,9 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background: #818385;
+}
+
+p {
+    text-shadow: none;
 }
   
