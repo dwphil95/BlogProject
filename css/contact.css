@@ -19,30 +19,17 @@ a:hover {
     color: gray;
 }
 
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-    color: #333;
-    text-shadow: none;
-    background-color: #fff;
-    border: .05rem solid #fff;
-}
 
 /*
  * Base structure
  */
-
- html,
- body {
-     height: 100%;
- }
  
  body {
      display: -ms-flexbox;
      display: flex;
      text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
      box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+     font-size: 16px;
  }
  
  .navbar {
@@ -50,9 +37,94 @@ a:hover {
  }
  
  .masthead {
-     margin-bottom: 5rem;
+     margin-bottom: 0.2rem;
  }
  
  .navbar-brand {
      font-weight: 700;
  }
+
+
+ /*
+ * Contact Form
+ */
+
+.contact {
+    /* padding-right: 20em; */
+    padding-bottom: 5em;
+    padding-right: 500px;
+    background-image: url("../imgs/tricking4.jpeg");
+    background-position: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 700px;
+    background: #f9f9f9;
+    padding: 15px 40px 40px;
+    border: 1px solid #ccc;
+    margin: 50px auto 0;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea {
+    border: 1px solid #ccc;
+}
+
+label i {
+    color: #999;
+    font-size: 80%;
+}
+
+input, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.row {
+    padding: 10px;
+}
+
+.form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+
+.form-inline label, .form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+
+.error {
+    color: red;
+    font-size: 90%;
+}
+
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: rgb(99, 97, 97);
+    border-color: rgb(66, 65, 65);
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #818385;
+}
+  
